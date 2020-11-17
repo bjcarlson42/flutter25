@@ -11,7 +11,6 @@ import {
   ListIcon,
   Divider,
   Link,
-  Icon,
   Avatar,
   Button
 } from '@chakra-ui/core';
@@ -52,20 +51,35 @@ const Index = () => (
             <Text color="gray.700" mb={4} fontSize="lg">
               Learn Flutter app development with one tutorial video a day December 1st to December 25th.
             </Text>
-            <Button
-              as="a"
-              href="#content"
-              fontWeight="bold"
-              h="2.5rem"
-              mr={1}
-              size="md"
-              bg="blue.700"
-              color="white"
-              _hover={{ bg: 'blue.800' }}
-              rightIcon="arrow-down"
-            >
-              All 25 Videos
+            <Flex flexDirection={["column", "row"]} p={2} align={["start", "center", "center"]}>
+              <Button
+                as="a"
+                href="#content"
+                fontWeight="bold"
+                h="2.5rem"
+                mr={1}
+                size={["md"]}
+                bg="blue.700"
+                color="white"
+                _hover={{ bg: 'blue.800' }}
+                rightIcon="arrow-down"
+                mb={[2, 0, 0]}
+              >
+                All 25 Videos
             </Button>
+              <Link isExternal href="https://gumroad.com/l/flutter25" _hover={{ textDecoration: 'none' }}>
+                <Button
+                  h="2.5rem"
+                  mr={1}
+                  size="md"
+                  rightIcon="arrow-forward"
+                  variant="outline"
+                  variantColor="blue.700"
+                >
+                  Pre Order
+            </Button>
+              </Link>
+            </Flex>
           </Flex>
         </Stack>
       </Container>
@@ -179,7 +193,7 @@ const Index = () => (
             you can <Link isExternal color="blue.500" href="https://gumroad.com/l/flutter25">pay what you want</Link> on Gumroad.
           </Text>
 
-            <CourseList />
+          <CourseList />
 
           <Divider borderColor="gray.200" my={16} w="100%" />
 

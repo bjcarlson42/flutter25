@@ -6,7 +6,8 @@ import {
     Button,
     Stack,
     Link,
-    Icon
+    Icon,
+    Box
 } from '@chakra-ui/core';
 
 const CardNew = ({ title, duration, href, number, children, ...content }) => (
@@ -192,11 +193,24 @@ const CourseList = () => {
 
     return (
         <>
+            <Box
+                backgroundColor="blue.100"
+                borderRadius={5}
+                p={8}
+                w="100%"
+            >
+                <Heading as="h4" size="md">Available December 1st, 2020</Heading>
+                <Link _hover={{ textDecoration: 'none' }} href="https://gumroad.com/l/flutter25" isExternal>
+                    <Button variantColor="teal" size="lg" mt={2}>
+                        Pre Order
+                    </Button>
+                </Link>
+            </Box>
             <CardNew
                 title="What Is Flutter?"
                 number="1"
-                href=""
-                // duration='10:54'
+            // href=""
+            // duration='10:54'
             >
                 We will look at what Flutter is and set up a Flutter dev environment on our machine.
           </CardNew>
