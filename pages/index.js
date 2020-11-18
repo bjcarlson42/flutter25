@@ -203,6 +203,7 @@ const Index = () => (
             as="h2"
             size="lg"
             fontWeight="bold"
+            id="further-reading"
           >
             Further Reading
             </Heading>
