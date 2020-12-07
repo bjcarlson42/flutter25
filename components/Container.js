@@ -20,7 +20,6 @@ const Container = ({ children }) => (
         alignItems="center"
         maxWidth="800px"
         width="100%"
-        as="nav"
         p={0, 4, 8}
         mx="auto"
       >

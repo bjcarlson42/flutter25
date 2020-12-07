@@ -12,14 +12,15 @@ import {
   Divider,
   Link,
   Avatar,
-  Button
+  Button,
+  SimpleGrid
 } from '@chakra-ui/core';
 
 import Container from '../components/Container';
 import CourseList from '../components/CourseList';
 
 const Index = () => (
-  <Box as="main">
+  <Box>
     <Flex justifyContent="center" flexDirection="column" bg="blue.50">
       <Container>
         <Stack
@@ -51,35 +52,20 @@ const Index = () => (
             <Text color="gray.700" mb={4} fontSize="lg">
               Learn Flutter app development with one tutorial video a day December 1st to December 25th.
             </Text>
-            <Flex flexDirection={["column", "row"]} p={2} align={["start", "center", "center"]}>
-              <Button
-                as="a"
-                href="#content"
-                fontWeight="bold"
-                h="2.5rem"
-                mr={1}
-                size={["md"]}
-                bg="blue.700"
-                color="white"
-                _hover={{ bg: 'blue.800' }}
-                rightIcon="arrow-down"
-                mb={[2, 0, 0]}
-              >
-                All 25 Videos
+            <Button
+              as="a"
+              href="#content"
+              fontWeight="bold"
+              h="2.5rem"
+              mr={1}
+              size="lg"
+              bg="blue.700"
+              color="white"
+              _hover={{ bg: 'blue.800' }}
+              rightIcon="arrow-down"
+            >
+              All 25 Videos
             </Button>
-              <Link isExternal href="https://gumroad.com/l/flutter25" _hover={{ textDecoration: 'none' }}>
-                <Button
-                  h="2.5rem"
-                  mr={1}
-                  size="md"
-                  rightIcon="arrow-forward"
-                  variant="outline"
-                  variantColor="blue.700"
-                >
-                  Pre Order
-            </Button>
-              </Link>
-            </Flex>
           </Flex>
         </Stack>
       </Container>
@@ -87,7 +73,7 @@ const Index = () => (
     <Box visibility={['hidden', 'hidden', 'visible']} h={[0, 0, 135]} as="div" backgroundColor="blue.50" style={{ transform: 'skewY(-4deg)' }} mt='-65px'></Box>
     <Flex justifyContent="center" flexDirection="column" mt={[4, 8, 0]}>
       <Stack
-        as="section"
+        as="main"
         spacing={8}
         justifyContent="center"
         alignItems="flex-start"
@@ -199,7 +185,7 @@ const Index = () => (
 
           <Heading
             letterSpacing="tight"
-            mb={4}
+            mb={2}
             as="h2"
             size="lg"
             fontWeight="bold"
@@ -207,18 +193,38 @@ const Index = () => (
           >
             Further Reading
             </Heading>
-          <Text color="gray.600">If you've finished this awesome tutorial series and want to continue expanding your knowledge,
+          <Text color="gray.600" mb={6}>If you've finished this awesome tutorial series and want to continue expanding your knowledge,
             or just want some helpful links as a reference, check out the links below.</Text>
-          <List spacing={3} mt={4}>
-            <ListItem>
-              <ListIcon icon="check" color="blue.500" />
-              <Link href="" isExternal>Flutter Docs</Link>
-            </ListItem>
-            <ListItem>
-              <ListIcon icon="check" color="blue.500" />
-              <Link href="" isExternal>GitHub code for this series</Link>
-            </ListItem>
-          </List>
+          <SimpleGrid columns={[1, 2, 2]} spacing="10px">
+            {/* left side */}
+            <List spacing={3}>
+              <ListItem>
+                <ListIcon icon="check" color="blue.500" />
+                <Link href="https://flutter.dev/docs" isExternal>Flutter Docs</Link>
+              </ListItem>
+              <ListItem>
+                <ListIcon icon="check" color="blue.500" />
+                <Link href="https://flutter.dev/docs/get-started/install" isExternal>Getting Started Docs</Link>
+              </ListItem>
+              <ListItem>
+                <ListIcon icon="check" color="blue.500" />
+                <Link href="https://github.com/bjcarlson42/flutter25" isExternal>GitHub code for this series</Link>
+              </ListItem>
+            </List>
+
+            {/* right side */}
+            <List spacing={3}>
+              <ListItem>
+                <ListIcon icon="check" color="blue.500" />
+                <Link href="https://javiercbk.github.io/json_to_dart/" isExternal>JSON to dart</Link>
+              </ListItem>
+              <ListItem>
+                <ListIcon icon="check" color="blue.500" />
+                <Link href="https://github.com/flutter/flutter" isExternal>Flutter GitHub</Link>
+              </ListItem>
+              
+            </List>
+          </SimpleGrid>
           <Divider borderColor="gray.200" my={16} w="100%" />
           <Flex align="center">
             <Avatar
