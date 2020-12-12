@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "class_name": "Calc",
+        "level": 300
+    },
+    {
+        "id": 2,
+        "class_name": "CS 2",
+        "level": 200
+    },
+    {
+        "id": 3,
+        "class_name": "Algorithms",
+        "level": 400
+    }
+]
