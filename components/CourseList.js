@@ -140,8 +140,8 @@ const FullCourseList = () => (
         <CardNew
             title="Animations"
             number="15"
-            duration=""
-            href=""
+            duration="13:36"
+            href="https://youtu.be/NuNftIAD_c0"
         >
             Make your app modern and user friendly by adding some animations!
         </CardNew>
