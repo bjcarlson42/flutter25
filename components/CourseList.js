@@ -154,7 +154,7 @@ const FullCourseList = () => (
             Learn how to handle forms and use input in Flutter.
         </CardNew>
         <CardNew
-            title="Dart Lists In Flutter Crash Course"
+            title="Flutter And Dart Lists 101"
             number="17"
             duration="5:14"
             href="https://youtu.be/vmHDtiej4AM"
@@ -170,7 +170,7 @@ const FullCourseList = () => (
             Learn the best practices for folder structure so you can keep your flutter app clean and organized.
         </CardNew>
         <CardNew
-            title="Designing A User Interface - Christmas List App"
+            title="Signup And Login Page UI - Christmas List App"
             number="19"
             duration=""
             href=""
@@ -178,7 +178,7 @@ const FullCourseList = () => (
             Time to build a complete app! We start off by designing the UI using everything you have learned so far.
         </CardNew>
         <CardNew
-            title="Designing A User Interface - Continued - Christmas List App"
+            title="Home Screen UI - Christmas List App"
             number="20"
             duration=""
             href=""
@@ -186,7 +186,7 @@ const FullCourseList = () => (
             Finishing the UI for our app.
         </CardNew>
         <CardNew
-            title="Connecting Google's Firebase - Christmas List App"
+            title="Connecting Google's Firebase To Flutter (IOS/Android + Simulator/Real Device) - Christmas List App"
             number="21"
             duration=""
             href=""
@@ -194,7 +194,7 @@ const FullCourseList = () => (
             Let's connect Google's Firebase and use it as our backend!
         </CardNew>
         <CardNew
-            title="Cloud Firestore - Christmas List App"
+            title="Firebase Authentication In Flutter - Christmas List App"
             number="22"
             duration=""
             href=""
@@ -202,7 +202,7 @@ const FullCourseList = () => (
             Learn how to store data in cloud firestore.
         </CardNew>
         <CardNew
-            title="Adding Authentication - Christmas List App"
+            title="Cloud Firestore In Flutter - Christmas List App"
             number="23"
             duration=""
             href=""

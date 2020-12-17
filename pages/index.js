@@ -50,7 +50,8 @@ const Index = () => (
               25 Days Of Flutter
             </Heading>
             <Text color="gray.700" mb={4} fontSize="lg">
-              Learn Flutter app development with one tutorial video a day December 1st to December 25th.
+              Go from <span className="cool-text">Zero</span> to Flutter app developer <span className="cool-text">Hero</span> in this 25 day series. 
+              Start with the basics and finish by building a complete app using a clean, modern UI, authentication, and a backend - all for <span className="cool-text">Free</span>!
             </Text>
             <Button
               as="a"
@@ -104,6 +105,10 @@ const Index = () => (
             a complete app using modern technologies like Google's Firebase.
           </Text>
 
+          <Text color="gray.600" mb={4} fontSize="md">
+            If you have little or no knowledge of Flutter but want to learn at a medium pace, this is the 25 day video series for you!
+          </Text>
+
           <Box
             backgroundColor="green.100"
             borderRadius={5}
@@ -120,6 +125,10 @@ const Index = () => (
               This Course Offers:
             </Heading>
             <List spacing={3}>
+              <ListItem>
+                <ListIcon icon={AiFillCheckCircle} color="green.500" />
+                100% Free!
+            </ListItem>
               <ListItem>
                 <ListIcon icon={AiFillCheckCircle} color="green.500" />
                 Beginner Friendly
@@ -216,13 +225,16 @@ const Index = () => (
             <List spacing={3}>
               <ListItem>
                 <ListIcon icon="check" color="blue.500" />
-                <Link href="https://javiercbk.github.io/json_to_dart/" isExternal>JSON to dart</Link>
+                <Link href="https://javiercbk.github.io/json_to_dart/" isExternal>JSON to Dart Converter</Link>
               </ListItem>
               <ListItem>
                 <ListIcon icon="check" color="blue.500" />
                 <Link href="https://github.com/flutter/flutter" isExternal>Flutter GitHub</Link>
               </ListItem>
-              
+              <ListItem>
+                <ListIcon icon="check" color="blue.500" />
+                <Link href="https://firebase.flutter.dev/docs/overview/" isExternal>FlutterFire Docs</Link>
+              </ListItem>
             </List>
           </SimpleGrid>
           <Divider borderColor="gray.200" my={16} w="100%" />
@@ -248,6 +260,12 @@ const Index = () => (
         </Flex>
       </Stack>
     </Flex>
+    <style jsx>{`
+    .cool-text {
+      text-shadow: 3px 5px 4px #1e4e8c;
+    }
+    `}
+    </style>
   </Box>
 );
 
