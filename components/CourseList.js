@@ -170,50 +170,50 @@ const FullCourseList = () => (
             Learn the best practices for folder structure so you can keep your flutter app clean and organized.
         </CardNew>
         <CardNew
-            title="Signup And Login Page UI - Christmas List App"
+            title="Login And Signup Screen Flutter UI - Christmas List App"
             number="19"
-            duration=""
-            href=""
+            duration="26:01"
+            href="https://youtu.be/gazOXVUoHjU"
         >
             Time to build a complete app! We start off by designing the UI using everything you have learned so far.
         </CardNew>
         <CardNew
-            title="Home Screen UI - Christmas List App"
+            title="Home Screen Flutter UI - Christmas List App"
             number="20"
-            duration=""
-            href=""
+            duration="13:24"
+            href="https://youtu.be/cfu46wvbAB4"
         >
             Finishing the UI for our app.
         </CardNew>
         <CardNew
-            title="Connecting Google's Firebase To Flutter (IOS/Android + Simulator/Real Device) - Christmas List App"
+            title="Connect Flutter To Firebase (FlutterFire) - Christmas List App"
             number="21"
-            duration=""
-            href=""
+            duration="13:29"
+            href="https://youtu.be/CcOYbbev5-Y"
         >
-            Let's connect Google's Firebase and use it as our backend!
+            Let's connect Google's Firebase and use it as our backend, authentication, and more!
         </CardNew>
         <CardNew
             title="Firebase Authentication In Flutter - Christmas List App"
             number="22"
-            duration=""
-            href=""
+            duration="33:27"
+            href="https://youtu.be/ObY46yBfDNY"
         >
-            Learn how to store data in cloud firestore.
+            Adding authentication via email and password!
         </CardNew>
         <CardNew
             title="Cloud Firestore In Flutter - Christmas List App"
             number="23"
-            duration=""
-            href=""
+            duration="15:55"
+            href="https://youtu.be/F_vebChwdwU"
         >
-            Adding authentication!
+            Learn how to store data in the cloud firestore database individually for each user.
         </CardNew>
         <CardNew
             title="Christmas List app 6 - Finishing touches"
             number="24"
-            duration=""
-            href=""
+            duration="6:23"
+            href="https://youtu.be/S1SK_0CJKeo"
         >
             The christmas app is complete! It utilizes modern design, Google's firebase, authentication, and more! 
             This is definitely a good app to add to your resume!

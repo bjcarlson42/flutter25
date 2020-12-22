@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552334248831",
+    "project_id": "christmas-list-app-fcf6a",
+    "storage_bucket": "christmas-list-app-fcf6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552334248831:android:63b0354734ff491c11a84a",
+        "android_client_info": {
+          "package_name": "com.benjamincarlson.christmaslistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552334248831-1hmu2v350fodi673jfo4teb1fmjoedm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9S8Hpbk4F3VKuBW0GHkGOzDL5niFalQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552334248831-1hmu2v350fodi673jfo4teb1fmjoedm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

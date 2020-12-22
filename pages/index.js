@@ -50,7 +50,7 @@ const Index = () => (
               25 Days Of Flutter
             </Heading>
             <Text color="gray.700" mb={4} fontSize="lg">
-              Go from <span className="cool-text">Zero</span> to Flutter app developer <span className="cool-text">Hero</span> in this 25 day series. 
+              Go from <span className="cool-text">Zero</span> to Flutter app developer <span className="cool-text">Hero</span> in this 25 day series.
               Start with the basics and finish by building a complete app using a clean, modern UI, authentication, and a backend - all for <span className="cool-text">Free</span>!
             </Text>
             <Button
