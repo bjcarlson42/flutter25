@@ -221,8 +221,8 @@ const FullCourseList = () => (
         <CardNew
             title="Where to go from here?"
             number="25"
-            duration=""
-            href=""
+            duration="2:11"
+            href="https://youtu.be/xEx7b4rNJGE"
         >
             In this final video, we talk about the best next steps to take.
         </CardNew>
